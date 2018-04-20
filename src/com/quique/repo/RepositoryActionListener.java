@@ -14,10 +14,14 @@ import org.openide.awt.ActionRegistration;
 import org.openide.util.NbBundle.Messages;
 import org.kohsuke.github.*;
 
+//ActionID que a un fichero le asigna un ID de la clase
+
 @ActionID(
         category = "File",
         id = "com.quique.repo.RepositoryActionListener"
 )
+
+//ActionRegistration que lo que hace es asignarle un icono al modulo
 @ActionRegistration(
         iconBase = "com/quique/repo/Upload.png",
         displayName = "#CTL_RepositoryActionListener"
@@ -28,8 +32,13 @@ import org.kohsuke.github.*;
   @ActionReference(path = "Toolbars/File", position = 0)
 })
 @Messages("CTL_RepositoryActionListener=Repository")
+
+/**
+ * @param git es una variable de tipo GitHub para crear el repositorio
+ */
 public final class RepositoryActionListener implements ActionListener {
     
+    static GitHub git;
     
     @Override
     public void actionPerformed(ActionEvent e) {
