@@ -29,16 +29,28 @@
                 <binary-origin>release/modules/ext/github-api-1.92.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
-                <runtime-relative-path>ext/org.eclipse.jgit-4.11.0.201803080745-r.jar</runtime-relative-path>
-                <binary-origin>release/modules/ext/org.eclipse.jgit-4.11.0.201803080745-r.jar</binary-origin>
-            </class-path-extension>
-            <class-path-extension>
                 <runtime-relative-path>ext/commons-codec-1.7.jar</runtime-relative-path>
                 <binary-origin>release/modules/ext/commons-codec-1.7.jar</binary-origin>
             </class-path-extension>
             <class-path-extension>
-                <runtime-relative-path>ext/JavaEWAH-1.1.6.jar</runtime-relative-path>
-                <binary-origin>release/modules/ext/JavaEWAH-1.1.6.jar</binary-origin>
+                <runtime-relative-path>ext/commons-lang-2.6.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/commons-lang-2.6.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
+                <runtime-relative-path>ext/commons-io-1.4.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/commons-io-1.4.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
+                <runtime-relative-path>ext/jackson-databind-2.9.2.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/jackson-databind-2.9.2.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
+                <runtime-relative-path>ext/jackson-core-2.9.2.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/jackson-core-2.9.2.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
+                <runtime-relative-path>ext/jackson-annotations-2.9.0.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/jackson-annotations-2.9.0.jar</binary-origin>
             </class-path-extension>
         </data>
     </configuration>
